@@ -1,2 +1,2 @@
 # Inventario
-Inventario realmente bueno
+Inventario Numero dos por que el otro estaba hecho un desastre
