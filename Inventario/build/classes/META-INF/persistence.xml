@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="InventarioPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>inventario.ActivoTangible</class>
+    <class>inventario.Responsableu</class>
+    <class>inventario.UnidadOperativa</class>
+    <class>inventario.Componente</class>
+    <class>inventario.Iventario</class>
+    <class>inventario.Sede</class>
+    <class>inventario.Movilizacion</class>
+    <class>inventario.ActivoNatural</class>
+    <class>inventario.ActivoIntangible</class>
+    <class>inventario.Responsablep</class>
+    <class>inventario.Distribuido</class>
+    <class>inventario.ActivoInmueble</class>
+    <class>inventario.Activo</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/BDInventario"/>
+      <property name="javax.persistence.jdbc.user" value="postgres"/>
+      <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="260999e"/>
+    </properties>
+  </persistence-unit>
+</persistence>
